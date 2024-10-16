@@ -69,11 +69,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres-db-shopmeet',
+        'NAME': 'postgres',
         'USER': 'Shopmeet',
         'PASSWORD': 'Password@123',
         'HOST': 'postgres-db-shoopmeet.postgres.database.azure.com',
-        'PORT': 3306,
+        'PORT': 5432,
     }}
 
 if ENVIRONMENT == 'production':
